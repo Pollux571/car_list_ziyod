@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.container{
+
+    width: 920px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    /*container margin auto verilir padding 10-30 kadar verilir.*/
+}
+
+.car-list{
+    display: flex;
+    justify-content: center;
+}
+
+.car-item{
+    padding: 48px 47.5px;
+    background: #E28625;
+    width: 307px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.car-img{
+    margin-bottom: 35px;
+}
+
+.car-title{
+    width: 101px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display';
+    margin-bottom: 25px;
+}
+
+.car-text{
+    width: 212px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+.car-link{
+    width: 146px;
+    border-radius: 25px;
+    background: #F2F2F2;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 11px 31.5px 12px 31.5px;
+    color: #E28625;
+
+}
+
+.car-link:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.suvs-text{
+    color: #006971;
+    border: 1px solid #fff;
+
+}
+
+.luxury-text{
+    color: #004140;
+    border: 1px solid #fff;
+}
+
+.suvs{
+    background: #006971;
+
+}
+
+.luxury{
+    background: #004140;
+}
